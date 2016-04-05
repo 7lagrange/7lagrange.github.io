@@ -29,8 +29,13 @@ Results can be uploaded to github and viewed at [nbviewer](http://nbviewer.jupyt
    Hiding only works locally
 
 - Ipython notebook convert to slides
+   
+   * ipython nbconvert mynotebook.ipynb --to slides --post serve
+      the command will generate a slide html in browser and continuous slide in html format 
+      [generate html slideshow](http://stackoverflow.com/questions/20441848/how-do-i-separate-slides-when-exporting-an-ipython-notebook-to-reveal-js)
 
-   You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown) 
+   [IPython notebook reveal-based slideshows](http://www.slideviper.oquanta.info/tutorial/slideshow_tutorial_slides.html#/)  
+   
 
    To have a line break without a paragraph, you will need to use two trailing spaces.  
    Note that this line is separate, but within the same paragraph.  
