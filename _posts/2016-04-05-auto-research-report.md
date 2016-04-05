@@ -20,11 +20,11 @@ Bascially it generates md files and convert to pdf, it requires knitr, pandoc, l
 ## Ipython notebook
 
 we can use ipython notebook to do computing and visualization interactively and convert the results to pdf or slides.
-
+Results can be uploaded to github and viewed at http://nbviewer.jupyter.org/
 
 - Ipython notebook
 
-   - You can do the analysis in ipython notebook and view the results in 
+   - 
 
       To have a line break without a paragraph, you will need to use two trailing spaces.  
       Note that this line is separate, but within the same paragraph.  
