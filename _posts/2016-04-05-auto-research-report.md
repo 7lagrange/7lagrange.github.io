@@ -26,10 +26,7 @@ Results can be uploaded to github and viewed at [nbviewer](http://nbviewer.jupyt
 - Ipython notebook
 
    use [Jupyter notebook extensions](https://github.com/ipython-contrib/IPython-notebook-extensions) to hide code cells and add table of contents
-
-      To have a line break without a paragraph, you will need to use two trailing spaces.  
-      Note that this line is separate, but within the same paragraph.  
-      (This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
+   Hiding only works locally.
 
 - Ipython notebook convert to slides
 
