@@ -19,6 +19,7 @@ Bascially it generates md files and convert to pdf, it requires knitr, pandoc, l
 /usr/local/bin/pandoc +RTS -K512m -RTS Example_Ipython.md --to beamer --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash-implicit_figures --output wgs.call.compare.20160112.revised.pdf --highlight-style tango --latex-engine /Library/TeX/texbin/pdflatex
 
 ```
+
 ## Ipython notebook
 
 we can use ipython notebook to do computing and visualization interactively and convert the results to pdf or slides.
@@ -26,7 +27,7 @@ we can use ipython notebook to do computing and visualization interactively and 
 1. Ipython notebook
 	You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown)  
 	To have a line break without a paragraph, you will need to use two trailing spaces
-	
+
     1. German Shepherd
     2. Belgian Shepherd
         1. Malinois
