@@ -23,7 +23,7 @@ we can use ipython notebook to do computing and visualization interactively and 
 
 1.Ipython notebook
 
-   You can do the analysis in ipython notebook and view the results in 
+    You can do the analysis in ipython notebook and view the results in 
 	have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown)  
 	To have a line break without a paragraph, you will need to use two trailing spaces
 
