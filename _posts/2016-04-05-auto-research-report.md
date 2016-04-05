@@ -30,20 +30,21 @@ Results can be uploaded to github and viewed at [nbviewer](http://nbviewer.jupyt
 
 - Ipython notebook convert to slides
    
-   * ipython nbconvert mynotebook.ipynb --to slides --post serve
+   ipython nbconvert mynotebook.ipynb --to slides --post serve
       the command will generate a slide html in browser and continuous slide in html format 
       [generate html slideshow](http://stackoverflow.com/questions/20441848/how-do-i-separate-slides-when-exporting-an-ipython-notebook-to-reveal-js)
+      add --reveal-prefix reveal.js
 
-   [IPython notebook reveal-based slideshows](http://www.slideviper.oquanta.info/tutorial/slideshow_tutorial_slides.html#/)  
+   [IPython notebook reveal-based slideshows](http://www.slideviper.oquanta.info/tutorial/slideshow_tutorial_slides.html#/)
+   ipython nbconvert mynotebook.ipynb --to slides  --template output_toggle --post serve
+      [Hide the input cells from your IPython slides](http://www.damian.oquanta.info/posts/hide-the-input-cells-from-your-ipython-slides.html)
+      [Hide notebook prompt](http://stackoverflow.com/questions/32358778/hide-ipython-notebook-prompt)
+
    
+- Ipython notebook convert to markdown/latex/pdf
 
-   To have a line break without a paragraph, you will need to use two trailing spaces.  
-   Note that this line is separate, but within the same paragraph.  
-   (This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
-
-
-
-``` bash
+``` 
+command convert mb to pdf
 
 /usr/local/bin/pandoc +RTS -K512m -RTS Example_Ipython.md --to beamer --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash-implicit_figures --output wgs.call.compare.20160112.revised.pdf --highlight-style tango --latex-engine /Library/TeX/texbin/pdflatex
 
