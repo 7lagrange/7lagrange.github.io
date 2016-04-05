@@ -25,8 +25,8 @@ Results can be uploaded to github and viewed at [nbviewer](http://nbviewer.jupyt
 
 - Ipython notebook
 
-   use [Jupyter notebook extensions](https://github.com/ipython-contrib/IPython-notebook-extensions) to hide code cells and add table of contents
-   Hiding only works locally.
+   use [Jupyter notebook extensions](https://github.com/ipython-contrib/IPython-notebook-extensions) to hide code cells and add table of contents  
+   Hiding only works locally
 
 - Ipython notebook convert to slides
 
