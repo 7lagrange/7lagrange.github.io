@@ -26,9 +26,9 @@ we can use ipython notebook to do computing and visualization interactively and 
 
    - You can do the analysis in ipython notebook and view the results in 
 
-   To have a line break without a paragraph, you will need to use two trailing spaces.  
-   Note that this line is separate, but within the same paragraph.  
-   (This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
+      To have a line break without a paragraph, you will need to use two trailing spaces.  
+      Note that this line is separate, but within the same paragraph.  
+      (This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
 
 - Ipython notebook convert to slides
 
