@@ -29,13 +29,11 @@ Results can be uploaded to github and viewed at [nbviewer](http://nbviewer.jupyt
    Hiding only works locally
 
 - Ipython notebook convert to slides
-   
-   ipython nbconvert mynotebook.ipynb --to slides --post serve
-      the command will generate a slide html in browser    
+   [IPython notebook reveal-based slideshows](http://www.slideviper.oquanta.info/tutorial/slideshow_tutorial_slides.html#/)  
+   ipython nbconvert mynotebook.ipynb --to slides --post serve  
+      the command will generate a slide html in browser  
       [generate html slideshow](http://stackoverflow.com/questions/20441848/how-do-i-separate-slides-when-exporting-an-ipython-notebook-to-reveal-js)
       add --reveal-prefix reveal.js
-
-   [IPython notebook reveal-based slideshows](http://www.slideviper.oquanta.info/tutorial/slideshow_tutorial_slides.html#/)  
    ipython nbconvert mynotebook.ipynb --to slides  --template output_toggle --post serve  
       [Hide the input cells from your IPython slides](http://www.damian.oquanta.info/posts/hide-the-input-cells-from-your-ipython-slides.html)  
       [Hide notebook prompt](http://stackoverflow.com/questions/32358778/hide-ipython-notebook-prompt)  
