@@ -40,8 +40,8 @@ Results can be uploaded to github and viewed at [nbviewer](http://nbviewer.jupyt
 
    ipython nbconvert mynotebook.ipynb --to slides  --template output_toggle --post serve  
 
-      * [Hide the input cells from your IPython slides](http://www.damian.oquanta.info/posts/hide-the-input-cells-from-your-ipython-slides.html) 
-      [Hide notebook prompt](http://stackoverflow.com/questions/32358778/hide-ipython-notebook-prompt)  
+      * [Hide the input cells from your IPython slides](http://www.damian.oquanta.info/posts/hide-the-input-cells-from-your-ipython-slides.html)  
+      * [Hide notebook prompt](http://stackoverflow.com/questions/32358778/hide-ipython-notebook-prompt)  
 
 - Ipython notebook convert to markdown/latex/pdf
 
