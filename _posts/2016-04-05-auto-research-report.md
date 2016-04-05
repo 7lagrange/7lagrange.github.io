@@ -19,12 +19,12 @@ Bascially it generates md files and convert to pdf, it requires knitr, pandoc, l
 
 ## Ipython notebook
 
-we can uses ipython notebook to do computing and visualization interactively and convert the results to pdf or slides.
+we can use ipython notebook to do computing and visualization interactively and convert the results to pdf or slides.
 
 
 1. Ipython notebook
 
-   You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown) 
+   *You can do the analysis in ipython notebook and view the results in 
 
    To have a line break without a paragraph, you will need to use two trailing spaces.  
    Note that this line is separate, but within the same paragraph.  
@@ -39,32 +39,6 @@ we can uses ipython notebook to do computing and visualization interactively and
    (This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
 
 
-
-1.Ipython notebook
-
-    You can do the analysis in ipython notebook and view the results in 
-	have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown)  
-	To have a line break without a paragraph, you will need to use two trailing spaces
-
-    1. German Shepherd
-    2. Belgian Shepherd
-        1. Malinois
-        2. Groenendael
-        3. Tervuren
-2. Cat
-    1. Siberian
-    2. Siamese
-
-
-1. Ipython notebook
-
-
-
-2. Ipython notebook convert to slides
-⋅⋅* Unordered sub-list.
-3. Ipython notebook convert to pdf
-⋅⋅⋅To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅
-⋅⋅⋅Note that this line is separate, but within the same paragraph.⋅⋅
 
 ``` bash
 
