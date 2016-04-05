@@ -19,3 +19,16 @@ Bascially it generates md files and convert to pdf, it requires knitr, pandoc, l
 /usr/local/bin/pandoc +RTS -K512m -RTS Example_Ipython.md --to beamer --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash-implicit_figures --output wgs.call.compare.20160112.revised.pdf --highlight-style tango --latex-engine /Library/TeX/texbin/pdflatex
 
 ```
+## Ipython notebook
+
+we can use ipython notebook to do computing and visualization interactively and convert the results to pdf or slides.
+
+1. Ipython notebook
+⋅⋅⋅To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅
+⋅⋅⋅Note that this line is separate, but within the same paragraph.⋅⋅
+2. Ipython notebook convert to slides
+⋅⋅* Unordered sub-list.
+3. Ipython notebook convert to pdf
+⋅⋅⋅To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅
+⋅⋅⋅Note that this line is separate, but within the same paragraph.⋅⋅
+
