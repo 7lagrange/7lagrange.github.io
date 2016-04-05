@@ -19,12 +19,13 @@ Bascially it generates md files and convert to pdf, it requires knitr, pandoc, l
 
 ## Ipython notebook
 
-we can use ipython notebook to do computing and visualization interactively and convert the results to pdf or slides.
-Results can be uploaded to github and viewed at http://nbviewer.jupyter.org/
+we can use ipython to do computing and visualization interactively and convert the results to pdf or slides.
+
+Results can be uploaded to github and viewed at [nbviewer](http://nbviewer.jupyter.org/)
 
 - Ipython notebook
 
-   - 
+   use [Jupyter notebook extensions](https://github.com/ipython-contrib/IPython-notebook-extensions) to hide code cells and add table of contents
 
       To have a line break without a paragraph, you will need to use two trailing spaces.  
       Note that this line is separate, but within the same paragraph.  
@@ -45,4 +46,6 @@ Results can be uploaded to github and viewed at http://nbviewer.jupyter.org/
 /usr/local/bin/pandoc +RTS -K512m -RTS Example_Ipython.md --to beamer --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash-implicit_figures --output wgs.call.compare.20160112.revised.pdf --highlight-style tango --latex-engine /Library/TeX/texbin/pdflatex
 
 ```
+
+# Some useful links
 
