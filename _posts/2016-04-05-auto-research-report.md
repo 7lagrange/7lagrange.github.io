@@ -15,5 +15,7 @@ R markdown use [knitr](http://yihui.name/knitr/) and embedded R code to generate
 Bascially it generates md files and convert to pdf, it requires knitr, pandoc, latex
 
 ``` bash
+
 /usr/local/bin/pandoc +RTS -K512m -RTS Example_Ipython.md --to beamer --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash-implicit_figures --output wgs.call.compare.20160112.revised.pdf --highlight-style tango --latex-engine /Library/TeX/texbin/pdflatex
+
 ```
