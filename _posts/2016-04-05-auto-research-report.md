@@ -23,7 +23,10 @@ Bascially it generates md files and convert to pdf, it requires knitr, pandoc, l
 
 we can use ipython notebook to do computing and visualization interactively and convert the results to pdf or slides.
 
-1. Dog
+1. Ipython notebook
+	You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown)  
+	To have a line break without a paragraph, you will need to use two trailing spaces
+	
     1. German Shepherd
     2. Belgian Shepherd
         1. Malinois
