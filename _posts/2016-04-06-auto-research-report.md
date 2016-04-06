@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Automatically generating research report"
-date: 2016-04-05
+date: 2016-04-06
 ---
 
 
