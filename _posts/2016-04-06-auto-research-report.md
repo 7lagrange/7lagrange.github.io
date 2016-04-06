@@ -34,7 +34,7 @@ Results can be uploaded to github and viewed at [nbviewer](http://nbviewer.jupyt
 
    ```ipython nbconvert mynotebook.ipynb --to slides --post serve```     
       * the command will generate a slide html in browser  
-      * add ```--reveal-prefix "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0"``` will have slides locally. [generate html slideshow](http://stackoverflow.com/questions/20441848/how-do-i-separate-slides-when-exporting-an-ipython-notebook-to-reveal-js)
+      * add ```--reveal-prefix "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0"``` will save slides locally. [generate html slideshow](http://stackoverflow.com/questions/20441848/how-do-i-separate-slides-when-exporting-an-ipython-notebook-to-reveal-js)
 
    ```ipython nbconvert mynotebook.ipynb --to slides  --template output_toggle --post serve```  
       * [Hide the input cells from your IPython slides](http://www.damian.oquanta.info/posts/hide-the-input-cells-from-your-ipython-slides.html)  
