@@ -37,7 +37,7 @@ Results can be uploaded to github and viewed at [nbviewer](http://nbviewer.jupyt
       * [generate html slideshow](http://stackoverflow.com/questions/20441848/how-do-i-separate-slides-when-exporting-an-ipython-notebook-to-reveal-js)
       add --reveal-prefix reveal.js
 
-   ipython nbconvert mynotebook.ipynb --to slides  --template output_toggle --post serve  
+   ipython nbconvert mynotebook.ipynb --to slides  --template output_toggle --post serve  (notice -- is two dash line - -)
       * [Hide the input cells from your IPython slides](http://www.damian.oquanta.info/posts/hide-the-input-cells-from-your-ipython-slides.html)  
       * [Hide notebook prompt](http://stackoverflow.com/questions/32358778/hide-ipython-notebook-prompt)  
 
