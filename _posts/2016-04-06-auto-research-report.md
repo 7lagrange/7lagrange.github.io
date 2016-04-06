@@ -19,7 +19,7 @@ Bascially it generates md files and convert to pdf, it requires knitr, pandoc, l
 
 ## Ipython notebook
 
-we can use ipython to do computing and visualization interactively and convert the results to pdf or slides.
+We can use ipython to do computing and visualization interactively and convert the results to pdf or slides.
 
 Results can be uploaded to github and viewed at [nbviewer](http://nbviewer.jupyter.org/)
 
@@ -28,19 +28,19 @@ Results can be uploaded to github and viewed at [nbviewer](http://nbviewer.jupyt
    use [Jupyter notebook extensions](https://github.com/ipython-contrib/IPython-notebook-extensions) to hide code cells and add table of contents  
    Hiding only works locally
 
-- Ipython notebook convert to slidemarkdow
+- Ipython notebook convert to slides
 
-   [IPython notebook reveal-based slideshows](http://www.slideviper.oquanta.info/tutorial/slideshow_tutorial_slides.html#/)  
+   One slide example:[IPython notebook reveal-based slideshows](http://www.slideviper.oquanta.info/tutorial/slideshow_tutorial_slides.html#/)  
 
    ```ipython nbconvert mynotebook.ipynb --to slides --post serve```     
       * the command will generate a slide html in browser  
-      * [generate html slideshow](http://stackoverflow.com/questions/20441848/how-do-i-separate-slides-when-exporting-an-ipython-notebook-to-reveal-js)
-      add --reveal-prefix reveal.js
+      * add ```--reveal-prefix "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0"``` will have slides locally. [generate html slideshow](http://stackoverflow.com/questions/20441848/how-do-i-separate-slides-when-exporting-an-ipython-notebook-to-reveal-js)
 
    ```ipython nbconvert mynotebook.ipynb --to slides  --template output_toggle --post serve```  
       * [Hide the input cells from your IPython slides](http://www.damian.oquanta.info/posts/hide-the-input-cells-from-your-ipython-slides.html)  
       * [Hide notebook prompt](http://stackoverflow.com/questions/32358778/hide-ipython-notebook-prompt)  
-
+   
+   It will have strange error is you used -- rather than ```--```
 - Ipython notebook convert to markdown/latex/pdf
 
 ``` 
